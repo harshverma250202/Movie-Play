@@ -1,0 +1,242 @@
+.body{
+    background-color: white;
+}
+.headofpayment{
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin:20px auto;
+    /* border: 2px solid red; */
+    width:510px;
+    background-color: white;
+    border-radius: 3px;
+  }
+  #movieplayredofpayment{
+    color: red;
+    font-weight: bolder;
+    margin-right: 10px;
+  }
+  .cardofpayment {
+    font-size: 40px;
+    position: relative;
+    left: 408px;
+    top: 17px;
+  }
+  .setupofpayment{
+    font-size: 36px;
+    margin: 20px 23px;
+    position: relative;
+    top: 18px;
+    color: black;
+  }
+  @media screen and (max-width: 500px) {
+    .lineofpayment {
+      width: 550px;
+    }
+    .sign-outofpayment {
+      right:calc(98vw - 489px);
+    }
+    #f1ofpayment{
+      width:10px;
+    }
+  }
+  .ringofpayment {
+    color: black;
+    font-size: 27px;
+    position: relative;
+    bottom: -21px;
+    left: -42px;
+    text-decoration: none;
+  }
+  #i1ofpayment{
+    height: 55px;
+    width: 60px;
+    position: relative;
+    top:30px;
+    left: 18px;
+  }
+  #i2ofpayment{
+    height: 35px;
+    width: 60px;
+    position: relative;
+    top:20px;
+    left: 18px;
+  }
+  .qofpayment {
+    font-size: 25px;
+    position: relative;
+    bottom: -21px;
+    left: 194px;
+    color: black;
+  }
+  #i3ofpayment{
+    height: 28px;
+    width: 39px;
+    position: relative;
+    top:20px;
+    left: 18px;
+  }
+  .titleofpayment{
+    color: red;
+    font-size: 50px;
+    border: none;
+    position: relative;
+    top:-5px; left:24px;
+    background-color: #020019;
+    display: block;
+  }
+  .titleofpayment span {
+    font-weight: bolder;
+  }
+  .titleofpayment:hover{
+    cursor: pointer;
+  }
+  /* .aofpayment {
+    margin: 15px 27px;
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    color: black;
+  } */
+  .sign-outofpayment:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .paraofpayment{
+    margin: 8px 28px 8px 28px;
+    display: block;
+    font-size: 17px;
+    color:  black;
+  }
+  .subcriptionofpayment{
+    margin:18px 18px 18px 24px;
+    height:70px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(194, 186, 186);;
+    background-color: rgb(194, 186, 186);
+    width: 445px;
+    padding: 8px 8px 0px 8px;
+  
+  }
+  .subofpayment{
+    font-size: 20px;
+  }
+  .subofpayment b{
+    color: black;
+  }
+  #changeofofferofpayment{
+    color: blue;
+  }
+  .changeofofferofpayment:hover {
+    color: red;
+    /* text-decoration: underline; */
+    /* background-color: red; Add this line */
+  }
+  
+  #sub3ofpayment{
+    position:relative;
+    bottom:-5px;
+  }
+  #sub2ofpayment{
+    background: none;
+    border:none;
+    color: blue;
+    position: relative;
+    left: 295px;top: 14px;
+  }
+  .btnofpayment{
+    background:none;
+    color: blue;
+    border: none;
+    padding:0px
+  }
+  .btnofpayment:hover,#sub2ofpayment:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+  }
+  #check1ofpayment{
+    color:red;
+    margin:0px 15px 19px 25px;
+    font-size: 23px;
+  }
+  .signofpayment{
+    /* border: 2px solid; */
+    height: 20px;
+    margin: 0px;
+    text-align: right;
+  }
+  .sign-outofpayment{
+    background:none;
+    border:none;
+    /* display:block; */
+    font-size: 20px;
+    box-shadow: none;
+    margin: 7px 8px;
+    position: relative;
+    top:22px;
+  }
+  .headerofpayment{
+    height: 900px;
+    /* border: 2px solid red; */
+  }
+  .agreeofpayment{
+    font-size: 22px;
+    /* margin:15px 5px; */
+  } 
+  .checkofpayment{
+    /* border: 2px solid; */
+    color: black;
+    padding:0px 0px 0px 23px;
+    transform: scale(1.9);
+    margin:12px -34px 12px 33px;
+  }
+  .checkofpayment:hover{cursor:pointer;}
+  .membershipofpayment{
+    width: 445px;
+    margin: 8px 25px;
+    padding: 20px;
+    font-size: 20px;
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+  }
+  .membershipofpayment:hover{
+    background-color:rgb(200, 0, 0);
+    cursor: pointer;
+  }
+  .errorofpayment{
+    color: red;
+    margin:0px 7px 0px 7px;
+    /* border: 2px solid; */
+  }
+  .loader {
+    border: 10px solid #ead7d7;
+    border-radius: 50%;
+    border-top: 10px solid #3498db;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    display: inline-block;
+    margin: 10px 20px;
+  }
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* .facircleofpayment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+/* a{
+  text-decoration: none;
+} */

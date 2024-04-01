@@ -1,0 +1,49 @@
+.results-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.results-element {
+  position: relative;
+}
+
+.results-poster {
+  height: 40vh;
+  width: 25vh;
+}
+
+.results-container {
+  padding: 1rem;
+}
+.results-title span{
+    color:red;
+}
+.results-title{
+  padding-bottom: 30px;
+}
+
+.results-sub-type {
+    text-align: center;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    background-color: green;
+    width: max-content;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.2rem;
+    font-size: 0.8rem;
+}
+
+h1 {
+  color: white;
+  padding-bottom: 30px;
+  position: relative;
+  background: linear-gradient(30deg, red, red, transparent 80%);
+  background-repeat: no-repeat;
+  background-size: 80% 3px;
+  background-position: bottom left; 
+}
+
+
+

@@ -1,0 +1,14 @@
+.hr-wrapper {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.hr-wrapper hr.stylish-line {
+    width: 100%;
+    height: 5px;
+    border: none;
+    border-top: 5px solid;
+    border-image-source: linear-gradient(90deg, #E70000 0%, #020019 84.9%);
+    border-image-slice: 1;
+    opacity: 1;
+}

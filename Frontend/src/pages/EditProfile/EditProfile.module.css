@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.imageBox{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer{
+    border: 0.2vh solid white;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.profileImage{
+    height: 40vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.editButton{
+    display: flex;
+    justify-content: center;
+}
+
+.editButton Button{
+    background-color: #E70000;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.closeButtonBox{
+    width: 100%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.closeButton{
+    display: flex;
+    justify-content: center;
+}
+
+.closeButtonBox hr{
+    width: 95%;
+    margin-left: 2.5%;
+    color: white;
+    border: none;
+    border-top: 0.03rem solid;
+    opacity: 1;
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-left: 2.5%;
+}
+
+.heading span{
+    color: #E70000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.heading hr{
+    width: 97.5%;
+    color: white;
+    border: none;
+    border-top: 0.03rem solid;
+    opacity: 1;
+}
+
+.heading2 hr{
+    width:95%;
+    color: white;
+    border: none;
+    border-top: 0.03rem solid;
+    opacity: 1;
+}
+
+.heading2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-left: 2.5%;
+}
+
+.closeButton Button{
+    background-color: #E70000;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    width: 15%;
+}
+
+.form1,.form2{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+form{
+    margin-bottom: 3vh;
+}
+
+.mb_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 13vh;
+}
+
+.mb_5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 8vh;
+}
+
+.mb_3 input, .mb_5 input{
+    width: 100%;
+    height: 6vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding-left: 1.5%;
+}
+
+.content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+.inputField{
+    width:95%;
+    height:6vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.inputField::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    color: #DADADA;
+}
+
+.submitButton{
+    background-color: #E70000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    border: none;
+    padding: 1vh 2vh;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+
+
+.form-control{
+    color: #000;
+
+}
+.responseMsg{
+    margin-left: 5%;
+}
